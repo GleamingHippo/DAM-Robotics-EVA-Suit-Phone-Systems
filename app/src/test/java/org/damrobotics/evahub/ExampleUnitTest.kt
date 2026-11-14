@@ -1,4 +1,4 @@
-package com.example.evahub
+package org.damrobotics.evahub
 
 import org.junit.Test
 

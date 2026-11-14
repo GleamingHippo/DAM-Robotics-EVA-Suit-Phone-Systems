@@ -1,4 +1,4 @@
-package com.example.evahub.ui.theme
+package org.damrobotics.evahub.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

@@ -4,14 +4,14 @@ plugins {
 }
 
 android {
-    namespace = "com.example.evahub"
+    namespace = "org.damrobotics.evahub"
     compileSdk {
         version = release(37)
     }
 
     defaultConfig {
-        applicationId = "com.example.evahub"
-        minSdk = 24
+        applicationId = "org.damrobotics.evahub"
+        minSdk = 30
         targetSdk = 37
         versionCode = 1
         versionName = "1.0"
@@ -52,4 +52,6 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     debugImplementation(libs.androidx.compose.ui.test.manifest)
     debugImplementation(libs.androidx.compose.ui.tooling)
+    //noinspection UseTomlInstead,NewerVersionAvailable
+    implementation("org.eclipse.zenoh:zenoh-java-android:1.10.1")
 }

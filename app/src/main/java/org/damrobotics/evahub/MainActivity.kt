@@ -1,5 +1,4 @@
-// 1. MAKE SURE THIS MATCHES YOUR ACTUAL APPLICATION PACKAGE NAME AT THE TOP
-package com.example.greetingcard
+package org.damrobotics.evahub
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -14,7 +13,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.example.evahub.ui.theme.EVAhubTheme
+import org.damrobotics.evahub.ui.theme.EVAhubTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
